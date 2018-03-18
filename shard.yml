@@ -1,0 +1,13 @@
+name: hi8-test
+version: 0.1.0
+
+authors:
+  - Alistair A. Israel <aisrael@gmail.com>
+
+targets:
+  hi8-test:
+    main: src/hi8-test.cr
+
+crystal: 0.24.2
+
+license: MIT
