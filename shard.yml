@@ -11,3 +11,10 @@ targets:
 crystal: 0.24.2
 
 license: MIT
+
+development_dependencies:
+  hi8:
+    github: vonkingsley/hi8.cr
+  kemal:
+    github: kemalcr/kemal
+    version: ~> 0.22.0

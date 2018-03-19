@@ -1,0 +1,22 @@
+version: 1.0
+shards:
+  hi8:
+    github: vonkingsley/hi8.cr
+    commit: 445ab7371a167add846c6dc7c400ffbb673d2021
+
+  kemal:
+    github: kemalcr/kemal
+    version: 0.22.0
+
+  kilt:
+    github: jeromegn/kilt
+    version: 0.4.0
+
+  radix:
+    github: luislavena/radix
+    version: 0.3.8
+
+  webmock:
+    github: manastech/webmock.cr
+    commit: 7e7e7ff4d00afbb708909e1721e9f9bceddda726
+
