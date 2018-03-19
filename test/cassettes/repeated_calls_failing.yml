@@ -1,0 +1,36 @@
+---
+episodes:
+- request:
+    method: GET
+    uri: http://localhost:3000/
+    body: ""
+    headers:
+      Host: localhost:3000
+      User-agent: Crystal
+  response:
+    status: "200"
+    headers:
+      Connection: keep-alive
+      X-Powered-By: Kemal
+      Content-Type: text/html
+      Content-Length: "1"
+    body: "1"
+    http_version: HTTP/1.1
+- request:
+    method: GET
+    uri: http://localhost:3000/
+    body: ""
+    headers:
+      Host: localhost:3000
+      User-agent: Crystal
+  response:
+    status: "200"
+    headers:
+      Connection: keep-alive
+      X-Powered-By: Kemal
+      Content-Type: text/html
+      Content-Length: "1"
+    body: "2"
+    http_version: HTTP/1.1
+recorded_with: HI8.CR 0.1.1
+recorded_at: "2018-03-19 09:42:20 +08:00"

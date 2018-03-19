@@ -2,6 +2,14 @@ require "kemal"
 
 STORE = {} of String => String
 
+value = 0
+
+# A simple HTTP server that increments a value
+get "/" do |env|
+  value += 1
+  value.to_s
+end
+
 # A simple HTTP server that acts as a key value store
 get "/api" do |env|
   key = env.params.query["key"]
